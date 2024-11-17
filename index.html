@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            /* background-color: black; */
+            /* background-color: rgba(133, 132, 127, 0.57); */
+            background-image: url(bhai.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* height: 500px;
+            width: 100%; */
+           
+         
+        }
+#div1{
+    height: 250px;
+    width: 350px;
+    border: 2px solid ;
+    background-color: rgb(44, 217, 159);
+    position: relative;
+    left: 300px;
+  bottom: 200px;
+    box-shadow: 10px 10px 10px 10px;
+    cursor: pointer;
+    
+}
+
+#div2{
+    height: 250px;
+    width: 350px;
+    border: 2px solid ;
+    background-color: rgba(81, 238, 53, 0.838);
+    position: relative;
+    left: 800px;
+    bottom: 450px;
+    box-shadow: 10px 10px 10px 10px;
+    cursor: pointer;
+
+}
+
+#div3{
+    height: 250px;
+    width: 350px;
+    border: 2px solid ;
+    background-color: #fb1e1ed9;
+    position: relative;
+    left: 300px;
+    bottom: 350px;
+   
+    box-shadow: 10px 10px 10px 10px;
+    cursor: pointer;
+
+}
+
+#div4{
+    height: 250px;
+    width: 350px;
+    border: 2px solid ;
+    background-color: rgba(238, 14, 219, 0.838);
+    position: relative;
+    left: 800px;
+    bottom: 600px;
+   
+   
+    box-shadow: 10px 10px 10px 10px;
+    cursor: pointer;
+
+}
+
+#div5{
+    height: 250px;
+    width: 350px;
+    border: 2px solid ;
+    background-color: rgba(193, 238, 14, 0.838);
+    position: relative;
+    left: 1300px;
+    bottom: 1210px;
+   
+   
+    box-shadow: 10px 10px 10px 10px;
+    cursor: pointer;
+
+}
+
+#div6{
+    height: 250px;
+    width: 350px;
+    border: 2px solid ;
+    background-color: rgba(32, 10, 233, 0.951);
+    position: relative;
+    left: 1300px;
+    bottom: 1110px;
+   
+   
+    box-shadow: 10px 10px 10px 10px;
+    cursor: pointer;
+
+}
+
+img{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    position: relative;
+    left: 37px;
+    cursor: pointer;
+}
+button{
+    height: 60px;
+    width: 130px;
+    font-size: 20px;
+    border-radius: 14px;
+    border: 2px solid black;
+    box-shadow: 10px 10px ;
+    margin-left: 40px;
+    position: relative;
+    bottom: 380px;
+    left: 850px;
+    cursor: pointer;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+
+   
+    <div>
+        <img src="raaz iphone image.png" id="img">
+    </div>
+    <div>
+        <h1 style="font-size: 50px; position: relative; left: 170px;bottom: 110px;">EASY  </h1>
+        <h1 style="color: rgba(16, 233, 66, 0.9); font-size: 50px; position: relative; bottom: 202px;
+        left: 300px;" >WORD</h1>
+        <h1 style="font-size: 50px; position: relative;bottom: 294px; left: 460px;">COUNT</h1>
+    </div>
+
+    <div>
+        <button style="margin-left: 100px; background-color: orchid;">HOME</button>
+        <BUTTon id="btn2" style="margin-left: 100px; background-color: cadetblue;">ABOUT US..</BUTTon>
+        <BUTTon style="margin-left: 100px; background-color: cornflowerblue; position: relative; left: 860px; bottom: 380px;">REGISTER</BUTTon>
+        <BUTTon id="btn4" style="margin-left: 100px; background-color: darkorange;position: relative; left: 870px;bottom: 380px;">LOGIN</BUTTon>
+    </div>
+
+
+    <div id="div1">
+        <h1 style="text-align: center; font-size: 40px; margin-top: 70px;">COUNTING</h1>
+        <h3 style="text-align: center; font-size: 20px;">CLICK HERE!</h3>
+    </div>
+    <div id="div2">
+        <h1 style="text-align: center; font-size: 40px; margin-top: 70px;">EVEN & ODD</h1>
+        <h3 style="text-align: center; font-size: 20px;">CLICK HERE!</h3>
+    </div>
+
+</div>
+<div id="div3">
+    <h1 style="text-align: center; font-size: 40px; margin-top: 70px;">PRIME NUMBER</h1>
+    <h3 style="text-align: center; font-size: 20px;">CLICK HERE!</h3>
+</div>
+
+<div id="div4">
+    <h1 style="text-align: center; font-size: 40px; margin-top: 70px;">FACTORIAL</h1>
+    <h3 style="text-align: center; font-size: 20px;">CLICK HERE!</h3>
+</div>
+<div id="div5">
+    <h1 style="text-align: center; font-size: 40px; margin-top: 70px;">ADDITION</h1>
+    <h3 style="text-align: center; font-size: 20px;">CLICK HERE!</h3>
+</div>
+
+<div id="div6">
+    <h1 style="text-align: center; font-size: 40px; margin-top: 70px;">TABLE</h1>
+    <h3 style="text-align: center; font-size: 20px;">CLICK HERE!</h3>
+</div>
+    
+
+
+
+
+
+
+
+<script>
+    let div1= document.querySelector("#div1");
+
+    div1.addEventListener("click", ()=>{
+        let num= prompt("enter your number");
+
+        // let body= document.createElement("body");
+        // body.style.backgroundImage="none";
+        // body.style.fontSize="30px";
+        // body.style.backgroundColor="orangered";
+
+        for(let i=1; i<=num; i++){
+           
+           document.write(i+"  ");
+           let body= document.querySelector("body");
+           body.style.backgroundImage="url('table.webp')"
+        body.style.backgroundRepeat="no-repeat"
+        body.style.backgroundSize="cover";
+    
+
+           
+         
+
+           body.style.fontSize="30px";
+        }
+        
+
+      
+    })
+
+
+    let div2= document.querySelector("#div2");
+    div2.addEventListener("click", ()=>{
+        let num= prompt("enter your number");
+
+        if(num%2==0){
+            document.write(num+" is even number");
+        }
+     
+        else{
+            document.write(num+" is odd number");
+        }
+        let body= document.querySelector("body");
+        body.style.fontSize="50px"
+        body.style.backgroundImage="url('table.webp')"
+        body.style.backgroundRepeat="no-repeat"
+        body.style.backgroundSize="cover";
+    })
+
+
+    let div3= document.querySelector("#div3");
+
+    div3.addEventListener("click", ()=>{
+        let num= prompt("enter your number");
+        let count=0;
+
+        for(let i=1; i<=num; i++){
+            if(num%i==0){
+                count++;
+            }
+        }
+        if(count==2){
+            document.write(num+" is a prime number");
+        }
+        else{
+            document.write(num+" is not a prime number");
+        }
+        let body= document.querySelector("body");
+        body.style.fontSize="50px"
+        body.style.backgroundImage="url('table.webp')"
+        body.style.backgroundRepeat="no-repeat"
+        body.style.backgroundSize="cover";
+        count=0;
+    })
+
+
+    let div4= document.querySelector("#div4");
+
+    div4.addEventListener("click", ()=>{
+        let num = prompt("enter your number");
+        let num2=num;
+
+        for(let i=num-1; i>=1;i--){
+            num2= num2*i;
+        }
+        document.write("FActorial of"+" "+num +" "+"is"+"=" +num2);
+        let body= document.querySelector("body");
+        body.style.fontSize="50px"
+        body.style.backgroundImage="url('table.webp')"
+        body.style.backgroundRepeat="no-repeat"
+        body.style.backgroundSize="cover";
+    })
+
+
+    let img= document.querySelector("#img");
+    // let body= document.createElement("body");
+
+    img.addEventListener("click", ()=>{
+        let head= document.createElement("h1");
+        head.innerHTML="<i> Hii.. My name is Raaz Thakur... <i/>"
+            head.style.fontSize="70px";
+            head.style.textAlign="center"
+       head.style.marginTop="30px"
+
+   
+        let img2= document.createElement("div");
+        document.write(img2)
+        img2.style.height="600px";
+        img2.style.width="600px";
+        img2.style.border="3px solid black";
+        // img2.style.borderRadius="300px"
+       img2.style.marginLeft="730px"
+       img2.style.marginTop="100px"
+
+        // body.style.backgroundColor=" rgb(44, 217, 159)"
+        img2.style.backgroundImage="url('raaz iphone image.png')"
+
+
+      
+      
+        let body= document.querySelector("body");
+        body.style.backgroundImage="url('https://images5.alphacoders.com/372/372649.jpg')"
+        body.style.backgroundRepeat="no-repeat"
+        body.style.backgroundSize="cover";
+        
+   
+
+
+      
+        body.prepend(head)
+        body.append(img2);
+   
+  
+//      body.style.backgroundImage="url('raaz iphone image.png')";
+//      body.style.backgroundSize="600px"
+//    body.style.borderRadius="400px"
+//      img.style.display="none";
+//      div1.style.display="none"
+//      div2.style.display="none"
+//      div3.style.display="none"
+//      div4.style.display="none"
+   
+   
+
+
+   
+  
+    })
+
+    let btn2= document.querySelector("#btn2");
+    btn2.addEventListener("click", ()=>{
+    
+        
+       
+
+       let heading = document.createElement("h5");
+    //    heading.innerText="Hii.. Welcome to my Website.."
+   
+       document.write(heading.innerText="Hi.. Welcome to my Website...")
+       heading.style.fontSize="60px"
+       let list1= document.createElement("li");
+       list1.innerHTML="<i>it is helpful for children...</i>";
+       list1.style.fontSize="30px"
+       let list2= document.createElement("li");
+       list2.innerHTML="<i>it contain lots of Data...</i>";
+       list2.style.fontSize="30px"
+    
+   
+       let body= document.querySelector("body");
+       body.style.backgroundColor="rgba(16, 233, 66, 0.9)"
+       body.prepend(heading)
+       body.append(list1)
+       body.append(list2)
+   });
+   
+    
+
+
+    
+       
+   
+
+    let div5= document.querySelector("#div5");
+
+    div5.addEventListener("click", ()=>{
+        let num1= parseInt(prompt("enter your first number"));
+        let num2= parseInt(prompt("enter your second number"));
+
+     
+        
+        document.write("your addition is :"+(num1+num2));
+        let body= document.querySelector("body");
+        body.style.fontSize="50px"
+        body.style.backgroundImage="url('table.webp')"
+        body.style.backgroundRepeat="no-repeat"
+        body.style.backgroundSize="cover";
+    })
+
+
+    let div6= document.querySelector("#div6");
+    div6.addEventListener("click", ()=>{
+        let num=prompt("enter your number");
+    for(let i=1; i<=10; i++){
+       let num2= num*i;
+       document.write(num+"*" + i +"="+num2 +"<br>");
+       let body = document.querySelector("body");
+       body.style.fontSize="50px";
+    //    body.style.backgroundColor="grey";
+    body.style.backgroundImage="url('table.webp')";
+    body.style.backgroundRepeat="no-repeat"
+    body.style.backgroundSize="cover";
+   
+
+    }})
+
+
+    let btn4= document.querySelector("#btn4");
+
+    btn4.addEventListener("click", ()=>{
+        // let input1= document.createElement("input");
+        // // input1.placeholder="enter your name";
+        // input1.style.fontSize="30px"
+        // input1.style.height="100px"
+        
+        // // input1.placeholder="Enter your name"
+        // document.write(input1.innerText="NAME")
+
+        // let body=document.querySelector("body");
+        // body.prepend(input1)
+
+        let body= document.querySelector("body");
+        body.href='login.html'
+    })
+    _
+
+
+</script>
+
+</body>
+</html>
